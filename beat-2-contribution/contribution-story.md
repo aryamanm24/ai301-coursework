@@ -57,7 +57,7 @@ one in the week it belongs to.
 
 **Unit 5: Scout searches Python format and datetime bugs, then grades five**
 
-I installed the unit 5 scout over the unit 1 rubric, wrote a fit profile for a small parser or HTTP-edge bug, and two `gh search issues` queries. Ranking by fewest comments put five same-day, zero-comment issues first. The rubric rejected two of them, a sibling checklist and a pair of unverified storage risks, and accepted a PROV-JSON datetime reader, a frozen build timestamp, and a generated loose end in a two-star repo. I dropped titles containing "siblings of" or "loose end" from the ranking, and the three I would take are sievelib's colon-prefixed Sieve strings, the PROV-JSON `xsd:dateTime` reader, and the MAAP timestamps that freeze at import.
+I installed the unit 5 scout over the unit 1 rubric, wrote a fit profile for a small parser or HTTP-edge bug, and two `gh search issues` queries. Ranking by fewest comments put five same-day, zero-comment issues first. The rubric rejected two of them, a sibling checklist and a pair of unverified storage risks, and the ones it accepted were small local fixes. I dropped titles containing "siblings of" or "loose end", then looked in maintained libraries for one named behavior with a real subject, and the issue I am taking is CPython #159707, where pure-Python `ZoneInfo.fromutc()` misses a timezone fold.
 
 **Unit 6: [one line on the tool work]**
 
