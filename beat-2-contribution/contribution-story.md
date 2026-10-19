@@ -55,10 +55,9 @@ happened; these entries are the toolkit's own timeline.
 All four entries are graded. Keep every heading below, and fill each
 one in the week it belongs to.
 
-**Unit 5: [one line on the tool work]**
+**Unit 5: Scout searches Python format and datetime bugs, then grades five**
 
-[2-4 sentences: what you built (the scout, your strategy), what broke
-or fell short, what changed because of it.]
+I installed the unit 5 scout over the unit 1 rubric, wrote a fit profile for a small parser or HTTP-edge bug, and two `gh search issues` queries. Ranking by fewest comments put five same-day, zero-comment issues first. The rubric rejected two of them, a sibling checklist and a pair of unverified storage risks, and accepted a PROV-JSON datetime reader, a frozen build timestamp, and a generated loose end in a two-star repo. I dropped titles containing "siblings of" or "loose end" from the ranking, and the three I would take are sievelib's colon-prefixed Sieve strings, the PROV-JSON `xsd:dateTime` reader, and the MAAP timestamps that freeze at import.
 
 **Unit 6: [one line on the tool work]**
 
